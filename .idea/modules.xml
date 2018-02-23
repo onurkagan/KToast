@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KToast.iml" filepath="$PROJECT_DIR$/KToast.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ktoast/ktoast.iml" filepath="$PROJECT_DIR$/ktoast/ktoast.iml" />
     </modules>
   </component>
 </project>
