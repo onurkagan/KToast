@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ButtonStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
 </resources>
