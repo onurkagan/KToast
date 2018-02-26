@@ -12,7 +12,7 @@ Custom toast messages.
 
 ## Cases :
 
-<img src="https://lh3.googleusercontent.com/4BIqd6LHYta8KsOZ5pBse7EXjMAWj49qdT3c34tICeLFs4ln98KhvpUFdZ9CJLGoJajW-6FJA6L7dw28YllR=w1366-h645" width="100%">
+<img src="https://lh5.googleusercontent.com/KI7WOG6LMFvQfd9g-UasK4hOP3CdlwMNnjpqxdtBBCZd-ckv68FjhVAaZ_-0OdrrZYJ6K2mcg1TbtNGrM2Ok=w1366-h645" width="100%">
 
 ## Examples :
 ```java
