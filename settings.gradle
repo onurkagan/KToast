@@ -1,1 +1,1 @@
-include ':app', ':ktoast'
+include ':app', ':ktoast-lib', ':sample'
