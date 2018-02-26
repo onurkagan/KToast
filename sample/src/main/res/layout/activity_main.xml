@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.onurkaganaldemir.sample.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+        <Button
+            android:id="@+id/mainActivityBtnSuccess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Success"
+            style="@style/ButtonStyle"/>
+
+        <Button
+            android:id="@+id/mainActivityBtnInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Info"
+            style="@style/ButtonStyle"/>
+
+        <Button
+            android:id="@+id/mainActivityBtnNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Normal"
+            style="@style/ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <Button
+            android:id="@+id/mainActivityBtnWarning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warning"
+            style="@style/ButtonStyle"/>
+
+        <Button
+            android:id="@+id/mainActivityBtnError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Error"
+            style="@style/ButtonStyle"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mainActivityBtnCustomColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom (Color)"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/mainActivityBtnCustomDrawable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom (Drawable)"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
