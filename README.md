@@ -9,6 +9,8 @@ Custom toast messages.
 - Use `KToast.LENGTH_AUTO` for unnormally long texts.
 - You can use `Gravity.BOTTOM`, `Gravity.TOP`, `Gravity.LEFT` or `Gravity.RIGHT` for toast position on screen.
 
+*K is not kotlin.
+
 
 ## Cases :
 
