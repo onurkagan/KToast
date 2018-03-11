@@ -2,6 +2,7 @@
 
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16)
 [![](https://jitpack.io/v/onurkagan/ktoast.svg)](https://jitpack.io/#onurkagan/ktoast)
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-KToast-green.svg?style=flat )]( https://android-arsenal.com/details/1/6827 )
 
 Custom toast messages.
 
