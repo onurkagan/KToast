@@ -18,7 +18,9 @@
             android:layout_marginRight="12dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:src="@drawable/ic_error"/>
+            android:src="@drawable/ic_error"
+            android:layout_marginEnd="12dp"
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:id="@+id/txtWarningToast"
@@ -26,7 +28,8 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:textColor="#fff"
-            android:layout_toRightOf="@id/warningToastImg" />
+            android:layout_toRightOf="@id/warningToastImg"
+            android:layout_toEndOf="@id/warningToastImg" />
 
     </RelativeLayout>
 
