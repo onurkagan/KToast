@@ -1,5 +1,6 @@
 package com.onurkaganaldemir.ktoastlib;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
@@ -195,6 +196,7 @@ public class KToast {
      * @param duration
      * @param icon
      */
+    @SuppressLint("WrongViewCast")
     public static void normalToast(final Activity activity, String message, final int gravity, int duration, @DrawableRes int icon){
         final View view = (activity.getLayoutInflater().inflate(R.layout.layout_normal_toast, null));
 
@@ -271,6 +273,7 @@ public class KToast {
      * @param toastColor
      * @param icon
      */
+    @SuppressLint("WrongViewCast")
     public static void customColorToast(final Activity activity, String message, final int gravity, int duration, @ColorRes int toastColor, @DrawableRes int icon){
         final View view = (activity.getLayoutInflater().inflate(R.layout.layout_custom_toast, null));
 

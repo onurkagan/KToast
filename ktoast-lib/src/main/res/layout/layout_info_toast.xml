@@ -18,7 +18,9 @@
             android:layout_marginRight="12dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:src="@drawable/ic_info"/>
+            android:src="@drawable/ic_info"
+            android:layout_marginEnd="12dp"
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:id="@+id/txtInfoToast"
@@ -26,7 +28,8 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:textColor="#fff"
-            android:layout_toRightOf="@id/infoToastImg" />
+            android:layout_toRightOf="@id/infoToastImg"
+            android:layout_toEndOf="@id/infoToastImg" />
 
     </RelativeLayout>
 
