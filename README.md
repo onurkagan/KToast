@@ -55,6 +55,6 @@ allprojects {
 Step 2. Add the dependency
 ```gradle
 dependencies {
-  compile 'com.github.onurkagan:ktoast:1.0.2'
+  implementation 'com.github.onurkagan:ktoast:1.0.3'
 }
 ```
