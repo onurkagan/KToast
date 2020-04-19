@@ -4,6 +4,7 @@
 [![](https://jitpack.io/v/onurkagan/ktoast.svg)](https://jitpack.io/#onurkagan/ktoast)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-KToast-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6827)
 ![Downloads](https://jitpack.io/v/onurkagan/ktoast/month.svg)
+[![Twitter Follow](https://img.shields.io/twitter/follow/nullbeatz.svg?style=social)](https://twitter.com/nullbeatz) 
 
 Custom toast messages.
 
